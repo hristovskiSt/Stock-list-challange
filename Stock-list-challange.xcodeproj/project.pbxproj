@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074B7D3F27A546E40073F9B9 /* StockListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D3D27A546E40073F9B9 /* StockListTableViewCell.swift */; };
+		074B7D4027A546E40073F9B9 /* StockListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074B7D3E27A546E40073F9B9 /* StockListTableViewCell.xib */; };
+		074B7D4527A558E30073F9B9 /* Stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D4427A558E30073F9B9 /* Stocks.swift */; };
+		074B7D4727A56D230073F9B9 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B7D4627A56D230073F9B9 /* Stock.swift */; };
 		077A813327A53E7700EECC2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A813227A53E7700EECC2C /* AppDelegate.swift */; };
 		077A813527A53E7700EECC2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A813427A53E7700EECC2C /* SceneDelegate.swift */; };
-		077A813727A53E7700EECC2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A813627A53E7700EECC2C /* ViewController.swift */; };
+		077A813727A53E7700EECC2C /* StockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A813627A53E7700EECC2C /* StockListViewController.swift */; };
 		077A813A27A53E7700EECC2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077A813827A53E7700EECC2C /* Main.storyboard */; };
 		077A813C27A53E7900EECC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077A813B27A53E7900EECC2C /* Assets.xcassets */; };
 		077A813F27A53E7900EECC2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077A813D27A53E7900EECC2C /* LaunchScreen.storyboard */; };
@@ -36,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074B7D3D27A546E40073F9B9 /* StockListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListTableViewCell.swift; sourceTree = "<group>"; };
+		074B7D3E27A546E40073F9B9 /* StockListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockListTableViewCell.xib; sourceTree = "<group>"; };
+		074B7D4427A558E30073F9B9 /* Stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks.swift; sourceTree = "<group>"; };
+		074B7D4627A56D230073F9B9 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		077A812F27A53E7700EECC2C /* Stock-list-challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock-list-challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		077A813227A53E7700EECC2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		077A813427A53E7700EECC2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		077A813627A53E7700EECC2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077A813627A53E7700EECC2C /* StockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewController.swift; sourceTree = "<group>"; };
 		077A813927A53E7700EECC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		077A813B27A53E7900EECC2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077A813E27A53E7900EECC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074B7D4127A5588E0073F9B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				077A813627A53E7700EECC2C /* StockListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		074B7D4227A558A50073F9B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				074B7D3D27A546E40073F9B9 /* StockListTableViewCell.swift */,
+				074B7D3E27A546E40073F9B9 /* StockListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		074B7D4327A558B80073F9B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				074B7D4427A558E30073F9B9 /* Stocks.swift */,
+				074B7D4627A56D230073F9B9 /* Stock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		077A812627A53E7700EECC2C = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +135,9 @@
 			children = (
 				077A813227A53E7700EECC2C /* AppDelegate.swift */,
 				077A813427A53E7700EECC2C /* SceneDelegate.swift */,
-				077A813627A53E7700EECC2C /* ViewController.swift */,
+				074B7D4327A558B80073F9B9 /* Models */,
+				074B7D4127A5588E0073F9B9 /* Controllers */,
+				074B7D4227A558A50073F9B9 /* Cells */,
 				077A813827A53E7700EECC2C /* Main.storyboard */,
 				077A813B27A53E7900EECC2C /* Assets.xcassets */,
 				077A813D27A53E7900EECC2C /* LaunchScreen.storyboard */,
@@ -233,6 +269,7 @@
 			files = (
 				077A813F27A53E7900EECC2C /* LaunchScreen.storyboard in Resources */,
 				077A813C27A53E7900EECC2C /* Assets.xcassets in Resources */,
+				074B7D4027A546E40073F9B9 /* StockListTableViewCell.xib in Resources */,
 				077A813A27A53E7700EECC2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077A813727A53E7700EECC2C /* ViewController.swift in Sources */,
+				077A813727A53E7700EECC2C /* StockListViewController.swift in Sources */,
 				077A813327A53E7700EECC2C /* AppDelegate.swift in Sources */,
+				074B7D4727A56D230073F9B9 /* Stock.swift in Sources */,
+				074B7D3F27A546E40073F9B9 /* StockListTableViewCell.swift in Sources */,
 				077A813527A53E7700EECC2C /* SceneDelegate.swift in Sources */,
+				074B7D4527A558E30073F9B9 /* Stocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
